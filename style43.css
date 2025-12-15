@@ -1,0 +1,48 @@
+
+      *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+        }
+        body{
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .Hero 
+        {
+            height: 100vh;
+            background: url(images.jfif);
+             background-position: center;
+             background-size: cover;
+             justify-content: center;
+               align-items: center;
+               display: flex;
+               padding: 0 20px;
+        }
+        .content{
+            text-align: center;
+            color: brown;
+        }
+        .content h1{
+            font-size: 65px;
+            margin-bottom: 20px;
+        }
+        .content p{
+            font-size: 22px;
+            margin-bottom: 30px;
+            color: burlywood;
+        }
+        .content .btn{
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: 5px;
+            text-decoration: none;
+            transition: 0.03s ease;
+            display: inline-block;
+        }
+        .content .btn:hover{
+            background-color: #0056b3;
+        }
